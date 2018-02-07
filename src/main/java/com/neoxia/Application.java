@@ -1,4 +1,6 @@
-package com.neoxia.springBoot;
+package com.neoxia;
+
+
 import java.util.Arrays;
 
 import org.springframework.boot.SpringApplication;

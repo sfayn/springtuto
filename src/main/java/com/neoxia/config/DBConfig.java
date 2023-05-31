@@ -24,7 +24,6 @@ public class DBConfig {
         dataSource.setUser(env.getProperty("db.username"));
         dataSource.setPassword(env.getProperty("db.password"));
         dataSource.setMaxPoolSize(20);
-        dataSource.setIdleConnectionTestPeriod(60);
 
         return dataSource;
     }
